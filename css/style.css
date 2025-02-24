@@ -1,0 +1,225 @@
+.home {
+    background: rgb(2,0,36);
+    /*linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(68,18,203,1) 50%, rgb(140, 26, 255) 33%)*/
+    background: radial-gradient(circle, rgb(169,83,255,1) 0%, rgb(68,18,203,1) 100%),
+    url(../images/geometry-156568_1280.webp);
+    background-size: 2500px;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+
+.overmij {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(68,18,203,1) 0%, rgba(169,83,255,1) 100%);
+}
+
+.mijnprojecten {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(169,83,255,1) 0%, rgba(68,18,203,1) 100%);
+}
+
+.title {
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(2,0,36,1);
+    text-align: center;
+    margin-top: 17%;
+    transition: font-size 0.2s;
+}
+
+.title2 {
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(2,0,36,1);
+    text-align: center;
+    margin-top: 6%;
+    transition: font-size 0.2s;
+    text-decoration: solid;
+}
+
+.title:hover {
+    font-size: 70px;
+}
+
+.title2:hover {
+    font-size: 65px;
+}
+
+.desc {
+    font-size: 30px;
+    color: rgba(255, 254, 215, 0.7);
+    text-shadow: 2px 2px 10px rgba(2,0,36,1);
+    text-align: center;
+    transition: font-size 0.2s;
+}
+
+.desc2 {
+    font-size: 30px;
+    color: rgba(255, 254, 215, 0.8);
+    text-shadow: 2px 2px 10px rgba(2,0,36,1);
+    text-align: center;
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-top: 30px;
+}
+
+.desc3 {
+    font-size: 30px;
+    color: rgba(255, 254, 215, 0.8);
+    text-shadow: 2px 2px 10px rgba(2,0,36,1);
+    text-align: center;
+    margin-left: 125px;
+    margin-right: 125px; 
+    margin-top: 50px;
+}
+
+.desc4 {
+    font-size: 30px;
+    color: rgb(254, 253, 229);
+    text-shadow: 2px 2px 10px rgba(2,0,36,1);
+    text-align: center;
+    margin-left: 125px;
+    margin-right: 125px; 
+    margin-top: 50px;
+}
+
+.fase {
+    font-size: 30px;
+    color: rgb(254, 253, 229);
+    text-shadow: 2px 2px 10px rgba(2,0,36,1);
+    text-align: center;
+    margin-left: 125px;
+    margin-right: 125px; 
+    margin-top: 50px;
+}
+
+.desc:hover {
+    font-size: 31px;
+}
+
+.hover {
+    transition: transform 0.2s;
+}
+
+.hover:hover {
+    transform: translateY(-0px);
+}
+
+.navbar {
+    justify-content: center;
+    list-style-type: none;
+    align-self: center;
+    position: fixed;
+    width:100%;
+    top: 0px;
+    left: 0px;
+    display:flex;
+    color:rgb(255, 255, 255);
+}
+
+.navitem {
+    overflow-x: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-self: center;
+    display: flex;
+    transition: background-color 0.5s;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(2,0,36,1);
+    transition: transform 0.2s
+}
+
+.navitem:hover {
+    background-color: rgba(255, 255, 255, 0.354);
+    transform: translateY(3px);
+}
+
+.blok {
+    display: flex;
+    margin: 50px;
+    height: 250px;
+    width: 500px;
+    border-radius: 10px;
+    border-color: rgba(41, 41, 41, 0);
+    border-style: solid;
+    background-color: rgba(81, 81, 81, 0.736);
+    filter: drop-shadow(1px 1px 100px #000000);
+    transition: transform 0.2s
+}
+
+.blok:hover {
+    transform: translateY(-10px);
+}
+
+.blokImage {
+    height: 200px;
+    margin-top: 20px;
+    filter: drop-shadow(1px 1px 5px #000000);
+}
+
+.blokImage2 {
+    height: 200px;
+    margin-top: 20px;
+    filter: drop-shadow(1px 1px 5px #000000);
+    margin-left: 31%;
+}
+
+.boxName {
+    font-size: 50px;
+    color: rgba(255, 254, 215, 1);
+    text-shadow: 2px 2px 10px rgba(2,0,36,1);
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 10px;
+}
+
+.mycontainer {
+    display: flex;
+    float: left;
+    margin-bottom: -25px;
+    margin-left: -25px;
+    margin-right: -25px;
+    transform: translate(3%, 0);
+}
+
+.bigcontainer {
+    max-width: 100%;
+}
+
+.Line {
+    border-top: 2px;
+    border-color: white;
+    border-radius: 6px;
+    border-style: solid;
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-top: 50px;
+}
+
+.imageShowcase {
+    filter: drop-shadow(1px 1px 10px #000000);
+    margin-left: 25%;
+    width: 900px;
+    left: 25%;
+}
+
+.input {
+    display: block;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 50px;
+    width: 1000px;
+    filter: drop-shadow(1px 1px 10px #000000);
+}
+
+.send {
+    display: block;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 50px;
+    width: 100px;
+    filter: drop-shadow(1px 1px 10px #000000);
+}
